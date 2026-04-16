@@ -1,14 +1,3 @@
-// class Wektor {
-//     var x: Int
-//     var y: Int
-//     var z: Int
-//     constructor(x: Int, y: Int, z: Int) {
-//         this.x = x
-//         this.y = y
-//         this.z = z
-//         }
-
-
 #include <iostream>
 using namespace std;
 
