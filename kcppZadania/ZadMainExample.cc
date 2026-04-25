@@ -40,5 +40,6 @@ int main() {
     wypiszLiczbyPodzielne();
     obliczPole(10,12);
     obliczObwod(10,12);
+    return 0;
 
 };
