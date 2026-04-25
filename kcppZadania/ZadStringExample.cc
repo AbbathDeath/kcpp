@@ -80,5 +80,6 @@ int main() {
     cout << "Test2: " << test2 << endl;
     cout << "=======" << endl;
 
+    return 0;
 
 }
