@@ -31,6 +31,7 @@ void Wektor::Print() {
 int main() {
     Wektor wektor(1,2,3);
     wektor.Print();
+    return 0;
 
 };
 
