@@ -14,4 +14,4 @@ int main() {
  int* ptr2 = &tablica[9];
 
  std::cout << "Roznica miedzy dwoma wskaznikami: "<< ptr2 - ptr << std::endl;
-}
+}c

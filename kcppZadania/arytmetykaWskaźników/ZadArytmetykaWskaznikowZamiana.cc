@@ -1,7 +1,7 @@
 /*
 Zadanie 3.1
 -------------------------------------
-Napisz program do zamiana miejscami dwóch liczb za pomocą wskaźników
+Napisz program do zamiany miejscami dwóch liczb za pomocą wskaźników
 Napisz funkcję zamien(int* a, int* b), która zamienia miejscami wartości przechowywane pod adresami a i b.
 Nazwa: ZadArytmetykaWskaznikowZamiana.cc
 
