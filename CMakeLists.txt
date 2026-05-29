@@ -1,10 +1,8 @@
 cmake_minimum_required(VERSION 4.2)
-project(untitled)
+project(zadaniaKCPP)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled
-#      kcppZadania/ZadEnumExample.cc
-#        kcppZadania/ZadClassExample.cc
-#        kcppZadania/ZadStringExample.cc
-        kcppZadania/ZadMainExample.cc)
+add_subdirectory(kcppZadania/funkcjaMain)
+add_subdirectory(kcppZadania/zwracaniePrzezFunkcje)
+add_subdirectory(kcppZadania/arytmetykaWskaznikow)
