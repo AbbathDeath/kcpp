@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.15)
+project(zadaniaKCPP)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(ZadAdresowaniePamieci ZadAdresowaniePamieci.cc)
+
+add_executable(ZadArytmetykaWskaznikowKopiowanie ZadArytmetykaWskaznikowKopiowanie.cc)
+
+add_executable(ZadArytmetykaWskaznikowPrzesuniecie ZadArytmetykaWskaznikowPrzesuniecie.cc)
+
+add_executable(ZadArytmetykaWskaznikowRoznica ZadArytmetykaWskaznikowRoznica.cc)
+
+add_executable(ZadArytmetykaWskaznikowSuma ZadArytmetykaWskaznikowSuma.cc)
+
+add_executable(ZadArytmetykaWskaznikowTabliceA ZadArytmetykaWskaznikowTabliceA.cc)
+
+add_executable(ZadArytmetykaWskaznikowZamiana ZadArytmetykaWskaznikowZamiana.cc.cc)
+
+add_executable(ZadArytmetykaWskaznikowZnajdowanie ZadArytmetykaWskaznikowZnajdowanie.cc)
