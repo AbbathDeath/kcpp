@@ -15,6 +15,6 @@ add_executable(ZadArytmetykaWskaznikowSuma ZadArytmetykaWskaznikowSuma.cc)
 
 add_executable(ZadArytmetykaWskaznikowTabliceA ZadArytmetykaWskaznikowTabliceA.cc)
 
-add_executable(ZadArytmetykaWskaznikowZamiana ZadArytmetykaWskaznikowZamiana.cc.cc)
+add_executable(ZadArytmetykaWskaznikowZamiana ZadArytmetykaWskaznikowZamiana.cc)
 
 add_executable(ZadArytmetykaWskaznikowZnajdowanie ZadArytmetykaWskaznikowZnajdowanie.cc)
