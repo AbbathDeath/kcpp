@@ -18,3 +18,9 @@ add_executable(ZadArytmetykaWskaznikowTabliceA ZadArytmetykaWskaznikowTabliceA.c
 add_executable(ZadArytmetykaWskaznikowZamiana ZadArytmetykaWskaznikowZamiana.cc)
 
 add_executable(ZadArytmetykaWskaznikowZnajdowanie ZadArytmetykaWskaznikowZnajdowanie.cc)
+
+add_executable(ZadArytmetykaWskaznikowTabliceB ZadArytmetykaWskaznikowTabliceB.cc)
+
+add_executable(ZadArytmetykaWskaznikowTablica2D ZadArytmetykaWskaznikowTablica2D.cc)
+
+add_executable(ZadArytmetykaWskaznikow ZadArytmetykaWskaznikow.cc)
