@@ -1,7 +1,7 @@
 #include <iostream>
 
 /*  
- *  Zadanie 3.9 (LArytmetykaWskaznikowTablice.cc)
+ *  Zadanie 3.9 (LArytmetykaWskaznikowTablice.cc)git
  * Operacje na dwóch tablicach z użyciem wskaźników
 Napisz program, który:
 - Zadeklaruje dwie tablice liczb zmiennoprzecinkowych o rozmiarze 5.
