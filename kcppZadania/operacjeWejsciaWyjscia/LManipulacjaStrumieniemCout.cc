@@ -17,7 +17,7 @@ Napisz program z przykładami manipulacji strumieniem cout:
      average:  xx.xxxx   T: xx.xxxxxx
   ==================================================
   - x.xxxx są wynikami jakiś działań, a nie sztucznie wstawionymi liczbami
-  - ustawienie liczb/wypisanie/sformatowanie wykonać używając manipulatorow strumieniem (setw, setprecision, setfill etc), zamiast " " czy \t
+  - ustawienie liczb/wypisanie/sformatowanie wykonać używającg manipulatorow strumieniem (setw, setprecision, setfill etc), zamiast " " czy \t
  *
  */
 
