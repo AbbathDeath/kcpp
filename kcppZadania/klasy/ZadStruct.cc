@@ -35,4 +35,5 @@ int main() {
   std::cout << "Imie: " << student2.imie << std::endl;
   std::cout << "Kierunek: " << student2.kierunek << std::endl;
   return 0;
+
 }
