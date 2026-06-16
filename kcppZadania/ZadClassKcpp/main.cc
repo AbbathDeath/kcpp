@@ -7,7 +7,7 @@
 #include "ZadArytmetykaWskSuma.h"
 #include "ZadArytmetykaWskPrzesuniecie.h"
 #include "ZadArytmetykaWsk.h"
-#inc
+#include "ZadBazaStudentow.h"
 #include <iostream>
 
 #include "ZadArytmetykaWskPrzesuniecie.h"
@@ -27,6 +27,8 @@ int main() {
     std::cout << "6. Zamiana miejscami dwóch liczb za pomocą wskaźników" << std::endl;
     std::cout << "7. Dodawanie elementów tablicy za pomocą wskażników" << std::endl;
     std::cout << "8. Przesunięcie elementów tablicy za pomocą wskażników" << std::endl;
+    std::cout << "9. Arytmetyka wskażników"<< std::endl;
+    std::cout << "10. Prosta baza danych studentów" << std::endl;
 
     std::cout << "0. Wyjście" << std::endl;
     std::cin >> wybor;
@@ -93,7 +95,8 @@ int main() {
         obj1.Uruchom();
         break;
       }
-      case 10 {
+
+      case 10: {
         ZadBazaStudentow obj1;
         std::cout << obj1.Opis() << std::endl;
         obj1.Uruchom();
