@@ -1,4 +1,3 @@
-#include "../include/ZadKcpp.h"
+#include "ZadKcpp.h"
 
 ZadKcpp::~ZadKcpp() {}
-

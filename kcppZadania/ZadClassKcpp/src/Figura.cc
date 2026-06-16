@@ -29,6 +29,18 @@ double Kwadrat::Obwod() {
   return 4 * bok;
 }
 
+Prostokat::Prostokat(double szerokosc, double dlugosc) {
+  this->szerokosc = szerokosc;
+  this->dlugosc = dlugosc;
+}
+double Prostokat::Pole() {
+  return dlugosc * szerokosc;
+}
+
+double Prostokat::Obwod() {
+  return 2 * (dlugosc + szerokosc);
+}
+
 Kolo::Kolo(double promien) {
   this->promien = promien;
 }

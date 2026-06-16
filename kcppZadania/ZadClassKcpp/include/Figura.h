@@ -4,7 +4,6 @@
 
 class Figura {
 public:
-  virtual void Narysuj() = 0;
   virtual double Pole() = 0;
   virtual double Obwod() = 0;
   virtual ~Figura();
