@@ -1,8 +1,12 @@
-//
-// Created by death on 16.06.2026.
-//
 
 #ifndef ZADCLASSKCPP_ZADKLASAKONSTRUKTOR_H
 #define ZADCLASSKCPP_ZADKLASAKONSTRUKTOR_H
 
+#include "string"
+#include "ZadKcpp.h"
+class ZadKlasaKonstruktor: public ZadKcpp {
+public:
+  void Uruchom() override;
+  std::string Opis() override;
+};
 #endif //ZADCLASSKCPP_ZADKLASAKONSTRUKTOR_H
