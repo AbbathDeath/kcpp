@@ -43,27 +43,27 @@ int main() {
  std::cout << "|";
  std::cout << std::left << std::setw(15) << " Chleb";
  std::cout << "|";
- std::cout << std::right << std::setw(8)  << std::setprecision(2)<< "4.99 ";
+ std::cout << std::right << std::setw(8)  << std::setprecision(2)<< "4.99;
  std::cout << "|";
- std::cout << std::right << std::setw(7) << "5 ";
+ std::cout << std::right << std::setw(7) << 5;
  std::cout << "|";
  std::cout << std::endl;
 
  std::cout << "|";
  std::cout << std::left << std::setw(15) << " Mleko";
  std::cout << "|";
- std::cout << std::right << std::setw(8) << "3.20 ";
+ std::cout << std::right << std::setw(8) << 3.20;
  std::cout << "|";
- std::cout << std::right << std::setw(7) << "10 ";
+ std::cout << std::right << std::setw(7) << 10;
  std::cout << "|";
  std::cout << std::endl;
 
  std::cout << "|";
  std::cout << std::left << std::setw(15) << " Jajka(10 szt)";
  std::cout << "|";
- std::cout << std::right << std::setw(8) << "8.50 ";
+ std::cout << std::right << std::setw(8) << 8.50;
  std::cout << "|";
- std::cout << std::right << std::setw(7) << "3 ";
+ std::cout << std::right << std::setw(7) << 3;
  std::cout << "|";
  std::cout << std::endl;
 
