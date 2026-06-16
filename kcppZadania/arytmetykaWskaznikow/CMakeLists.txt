@@ -3,7 +3,8 @@ project(zadaniaKCPP)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ZadAdresowaniePamieci ZadAdresowaniePamieci.cc)
+add_executable(ZadAdresowaniePamieci ZadAdresowaniePamieci.cc
+)
 
 add_executable(ZadArytmetykaWskaznikowKopiowanie ZadArytmetykaWskaznikowKopiowanie.cc)
 
@@ -23,4 +24,8 @@ add_executable(ZadArytmetykaWskaznikowTabliceB ZadArytmetykaWskaznikowTabliceB.c
 
 add_executable(ZadArytmetykaWskaznikowTablica2D ZadArytmetykaWskaznikowTablica2D.cc)
 
+add_executable(ZadOperatoryPrzypisania ZadOperatoryPrzypisania.cc)
+
 add_executable(ZadArytmetykaWskaznikow ZadArytmetykaWskaznikow.cc)
+
+add_executable(LBitoweOperatoryLogiczneSingleVariable LBitoweOperatoryLogiczneSingleVariable.cc)
