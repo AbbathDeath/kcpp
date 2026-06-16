@@ -3,6 +3,11 @@
 #include <string>
 #include <iostream>
 
+
+std::string ZadMetodyAbstrakcyjne::Opis() {
+  return "Metody abstrakcyjne - pole i obwod figur\n";
+}
+
 void ZadMetodyAbstrakcyjne::Uruchom() {
   Figura *objKwadrat = new Kwadrat(4);
   std::cout << "Kwadrat: "<< std::endl;
@@ -33,10 +38,8 @@ void ZadMetodyAbstrakcyjne::Uruchom() {
   Kolo kolo2(2);
   double x = 22;
   std::cout << "Dystans dla " << x << "m2: " << kolo2.Dystans(x) << std::endl;
+  std::cout << std::endl;
 
 }
 
-std::string ZadMetodyAbstrakcyjne::Opis() {
-  return "Metody abstrakcyjne - pole i obwod figur";
-}
 

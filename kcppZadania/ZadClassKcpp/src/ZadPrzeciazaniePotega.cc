@@ -19,10 +19,11 @@ void ZadPrzeciazaniePotega::Uruchom() {
   std::cout << "Proszę podać drugą liczbę zmiennoprzecinkową" << std::endl;
   std::cin >> b;
   std::cout << "Potega liczb zmiennoprzecinkowych: " << potega(a,b) << std::endl;
+  std::cout << std::endl;
 }
 
 std::string ZadPrzeciazaniePotega::Opis() {
-  return "Potega liczb calkowitych i  zmiennoprzecinkowych";
+  return "Potega liczb calkowitych i  zmiennoprzecinkowych\n";
 }
 
 int ZadPrzeciazaniePotega::potega(int x, int y) {

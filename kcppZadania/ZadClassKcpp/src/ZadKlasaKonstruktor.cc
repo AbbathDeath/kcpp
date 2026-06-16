@@ -4,6 +4,10 @@
 #include <iostream>
 #include <string>
 
+std::string ZadKlasaKonstruktor::Opis() {
+  return "Klasa z przykładami konstruktorów i inicializacją zmiennych:\n";
+}
+
 void ZadKlasaKonstruktor::Uruchom() {
   Student student1;
   student1.ustawId(1);
@@ -15,12 +19,12 @@ void ZadKlasaKonstruktor::Uruchom() {
   Student student3(3, "Piotr", "Fizyka");
 
   student1.wyswietlDaneStudenta();
+  std::cout << std::endl;
 
   student2.wyswietlDaneStudenta();
+  std::cout << std::endl;
 
   student3.wyswietlDaneStudenta();
+  std::cout << std::endl;
 }
 
-std::string ZadKlasaKonstruktor::Opis() {
-  return "Klasa z przykładami konstruktorów i inicializacją zmiennych:";
-}

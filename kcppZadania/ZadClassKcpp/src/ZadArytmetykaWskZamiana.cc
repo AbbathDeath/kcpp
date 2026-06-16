@@ -9,7 +9,7 @@ void ZadArytmetykaWskZamiana::Uruchom() {
 }
 
 std::string ZadArytmetykaWskZamiana::Opis() {
-  return "Zamiana miejscami dwóch liczb za pomocą wskaźników";
+  return "Zamiana miejscami dwóch liczb za pomocą wskaźników\n";
 }
 
 void ZadArytmetykaWskZamiana::ZmienMiejscamiWartosci(int* a, int* b) {
@@ -25,4 +25,5 @@ void ZadArytmetykaWskZamiana::ZmienMiejscamiWartosci(int* a, int* b) {
   std::cout << *a << std::endl;
   std::cout << "Po zmiane: ";
   std::cout << *b << std::endl;
+  std::cout << std::endl;
 }
