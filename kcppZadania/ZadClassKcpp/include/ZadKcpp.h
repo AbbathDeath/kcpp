@@ -1,5 +1,3 @@
-
-
 #ifndef ZADKCPP_H
 #define ZADKCPP_H
 
