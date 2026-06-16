@@ -10,7 +10,7 @@ public:
   virtual ~Figura();
 };
 
-class Trojkat : public Figura {
+class Trojkat {
 private:
   double a;
   double b;
@@ -31,8 +31,8 @@ private:
 public:
   Kwadrat(double bok);
 
-  double Pole() {}
-  double Obwod() {}
+  double Pole();
+  double Obwod();
 };
 
 class Prostokat {
