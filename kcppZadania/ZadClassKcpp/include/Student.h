@@ -1,0 +1,8 @@
+//
+// Created by death on 16.06.2026.
+//
+
+#ifndef ZADCLASSKCPP_STUDENT_H
+#define ZADCLASSKCPP_STUDENT_H
+
+#endif //ZADCLASSKCPP_STUDENT_H
