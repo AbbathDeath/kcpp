@@ -8,6 +8,16 @@ add_executable(ZadClassKcpp
         src/ZadKcpp.cc
         src/ZadMetodyAbstrakcyjne.cc
         src/Figura.cc
-        include/Figura.h)
+        src/Student.cc
+        src/ZadKlasaKonstruktor.cc
+        src/ZadParzystosc.cc
+        src/ZadPrzekazywanieArgumentow.cc
+        src/ZadPrzeciazaniePotega.cc
+        include/Figura.h
+        include/Student.h
+        include/ZadKlasaKonstruktor.h
+        include/ZadParzystosc.h
+        include/ZadPrzekazywanieArgumentow.h
+        include/ZadPrzeciazaniePotega.h)
 
 target_include_directories(ZadClassKcpp PRIVATE include)
