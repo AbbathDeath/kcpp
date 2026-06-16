@@ -2,8 +2,10 @@
 #define ZADCLASSKCPP_ZADPRZEKAZYWANIEARGUMENTOW_CC_H
 #include "ZadKcpp.h"
 #include "string"
+#include <vector>
 
 class ZadPrzekazywanieArgumentow : public ZadKcpp {
+public:
   void Uruchom() override;
   std::string Opis() override;
 
