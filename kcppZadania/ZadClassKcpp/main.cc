@@ -3,6 +3,7 @@
 #include "ZadPrzekazywanieArgumentow.h"
 #include "ZadParzystosc.h"
 #include "ZadPrzeciazaniePotega.h"
+#include "ZadArytmetykaWskZamiana.h"
 #include <iostream>
 
 
@@ -19,6 +20,7 @@ int main() {
     std::cout << "3. Parzystość liczb" << std::endl;
     std::cout << "4. Przekazywanie argumentów" << std::endl;
     std::cout << "5. Potega liczb calkowitych i  zmiennoprzecinkowych" << std::endl;
+    std::cout << "6. Zamiana miejscami dwóch liczb za pomocą wskaźników" << std::endl;
 
     std::cout << "0. Wyjście" << std::endl;
     std::cin >> wybor;
@@ -57,6 +59,12 @@ int main() {
 
       case 5: {
         ZadPrzeciazaniePotega obj1;
+        std::cout << obj1.Opis() << std::endl;
+        obj1.Uruchom();
+        break;
+      }
+      case 6: {
+        ZadArytmetykaWskZamiana obj1;
         std::cout << obj1.Opis() << std::endl;
         obj1.Uruchom();
         break;
