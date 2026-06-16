@@ -10,7 +10,7 @@ public:
   virtual ~Figura();
 };
 
-class Trojkat {
+class Trojkat: public Figura {
 private:
   double a;
   double b;
@@ -24,7 +24,7 @@ private:
 };
 
 
-class Kwadrat {
+class Kwadrat: public Figura {
 private:
   double bok;
 
@@ -35,7 +35,7 @@ public:
   double Obwod();
 };
 
-class Prostokat {
+class Prostokat: public Figura {
 private:
   double szerokosc;
   double dlugosc;
@@ -47,13 +47,14 @@ public:
 
 };
 
-class Kolo {
+class Kolo: public Figura {
 private:
   double promien;
 public:
   Kolo(double promien);
   double Pole();
   double Obwod();
+  double Dystans(double x);
 };
 
 #endif //ZADCLASSKCPP_FIGURA_H
