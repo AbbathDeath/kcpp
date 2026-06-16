@@ -5,9 +5,10 @@
 #include "ZadPrzeciazaniePotega.h"
 #include "ZadArytmetykaWskZamiana.h"
 #include "ZadArytmetykaWskSuma.h"
+#include "ZadArytmetykaWskPrzesuniecie.h"
 #include <iostream>
 
-
+#include "ZadArytmetykaWskPrzesuniecie.h"
 
 
 int main() {
@@ -74,6 +75,12 @@ int main() {
       }
       case 7: {
         ZadArytmetykaWskSuma obj1;
+        std::cout << obj1.Opis() << std::endl;
+        obj1.Uruchom();
+        break;
+      }
+      case 8: {
+        ZadArytmetykaWskPrzesuniecie obj1;
         std::cout << obj1.Opis() << std::endl;
         obj1.Uruchom();
         break;
