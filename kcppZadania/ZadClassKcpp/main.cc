@@ -4,6 +4,7 @@
 #include "ZadParzystosc.h"
 #include "ZadPrzeciazaniePotega.h"
 #include "ZadArytmetykaWskZamiana.h"
+#include "ZadArytmetykaWskSuma.h"
 #include <iostream>
 
 
@@ -21,6 +22,8 @@ int main() {
     std::cout << "4. Przekazywanie argumentów" << std::endl;
     std::cout << "5. Potega liczb calkowitych i  zmiennoprzecinkowych" << std::endl;
     std::cout << "6. Zamiana miejscami dwóch liczb za pomocą wskaźników" << std::endl;
+    std::cout << "7. Dodawanie elementów tablicy za pomocą wskażników" << std::endl;
+    std::cout << "8. Przesunięcie elementów tablicy za pomocą wskażników" << std::endl;
 
     std::cout << "0. Wyjście" << std::endl;
     std::cin >> wybor;
@@ -69,8 +72,15 @@ int main() {
         obj1.Uruchom();
         break;
       }
+      case 7: {
+        ZadArytmetykaWskSuma obj1;
+        std::cout << obj1.Opis() << std::endl;
+        obj1.Uruchom();
+        break;
+      }
       default:
-        std::cout << "Niepoprawny numer zadania" << std::endl;
+        std::cout << std::endl;
+        std::cout << "Niepoprawny numer zadania\n" << std::endl;
         break;
     }
   }

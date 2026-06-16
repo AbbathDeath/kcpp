@@ -14,12 +14,14 @@ add_executable(ZadClassKcpp
         src/ZadPrzekazywanieArgumentow.cc
         src/ZadPrzeciazaniePotega.cc
         src/ZadArytmetykaWskZamiana.cc
+        src/ZadArytmetykaWskSuma.cc
         include/Figura.h
         include/Student.h
         include/ZadKlasaKonstruktor.h
         include/ZadParzystosc.h
         include/ZadPrzekazywanieArgumentow.h
         include/ZadPrzeciazaniePotega.h
-        include/ZadArytmetykaWskZamiana.h)
+        include/ZadArytmetykaWskZamiana.h
+        include/ZadArytmetykaWskSuma.h)
 
 target_include_directories(ZadClassKcpp PRIVATE include)
