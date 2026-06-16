@@ -6,6 +6,8 @@
 #include "ZadArytmetykaWskZamiana.h"
 #include "ZadArytmetykaWskSuma.h"
 #include "ZadArytmetykaWskPrzesuniecie.h"
+#include "ZadArytmetykaWsk.h"
+#inc
 #include <iostream>
 
 #include "ZadArytmetykaWskPrzesuniecie.h"
@@ -16,7 +18,7 @@ int main() {
 
 
   do {
-    std::cout << "Proszę wybrać zadanie z listy i podać numer zadania" << std::endl;
+    std::cout << "Proszę wybrać zadanie z listy i podać numer zadania\n" << std::endl;
     std::cout << "1. Metody abstrakcyjne" << std::endl;
     std::cout << "2. Przyklady konstruktorów klasy" << std::endl;
     std::cout << "3. Parzystość liczb" << std::endl;
@@ -81,6 +83,18 @@ int main() {
       }
       case 8: {
         ZadArytmetykaWskPrzesuniecie obj1;
+        std::cout << obj1.Opis() << std::endl;
+        obj1.Uruchom();
+        break;
+      }
+      case 9: {
+        ZadArytmetykaWsk obj1;
+        std::cout << obj1.Opis() << std::endl;
+        obj1.Uruchom();
+        break;
+      }
+      case 10 {
+        ZadBazaStudentow obj1;
         std::cout << obj1.Opis() << std::endl;
         obj1.Uruchom();
         break;

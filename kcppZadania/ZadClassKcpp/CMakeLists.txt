@@ -16,6 +16,7 @@ add_executable(ZadClassKcpp
         src/ZadArytmetykaWskZamiana.cc
         src/ZadArytmetykaWskSuma.cc
         src/ZadArytmetykaWskPrzesuniecie.cc
+        src/ZadArytmetykaWsk.cc
         include/Figura.h
         include/Student.h
         include/ZadKlasaKonstruktor.h
@@ -24,6 +25,7 @@ add_executable(ZadClassKcpp
         include/ZadPrzeciazaniePotega.h
         include/ZadArytmetykaWskZamiana.h
         include/ZadArytmetykaWskSuma.h
-        include/ZadArytmetykaWskPrzesuniecie.h)
+        include/ZadArytmetykaWskPrzesuniecie.h
+        include/ZadArytmetykaWsk.h)
 
 target_include_directories(ZadClassKcpp PRIVATE include)
