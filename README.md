@@ -14,3 +14,14 @@ Program posiada menu, z którego można wybrać numer zadania i uruchomić odpow
 - "src/" — pliki źródłowe ".cc"
 - "ZadKcpp" — abstrakcyjna klasa bazowa dla zadań
 -  Budowanie i kompilacja projektu przy użyciu CMake
+
+Dla zadania 6.1 został przygotowany osobny Cmake plik ktory należy budować i uruchamiać z katalogu: ZadClassKcpp(kcppZadania/ZadClass/Kcpp)
+
+### Konfiguracja projektu
+cmake -B build
+
+### Budowanie projektu 
+cmake --build build
+
+### Uruchomenie projektu
+.build/ZadClassKcpp
