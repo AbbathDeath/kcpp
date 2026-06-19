@@ -15,7 +15,7 @@ Program posiada menu, z którego można wybrać numer zadania i uruchomić odpow
 - "ZadKcpp" — abstrakcyjna klasa bazowa dla zadań
 -  Budowanie i kompilacja projektu przy użyciu CMake
 
-Dla zadania 6.1 został przygotowany osobny Cmake plik ktory należy budować i uruchamiać z katalogu: ZadClassKcpp(kcppZadania/ZadClass/Kcpp)
+Dla zadania 6.1 został przygotowany osobny Cmake plik ktory należy budować i uruchamiać z katalogu: ZadClassKcpp(kcppZadania/ZadClassKcpp)
 
 ### Konfiguracja projektu
 cmake -B build
